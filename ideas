@@ -1,0 +1,14 @@
+
+ An app that lists pen/paper games to play and upon selecting one takes you to play that game but the whole app runs as a terminal cli application
+ >hangman
+ >chess
+ >tictactoe
+ >poker
+ >connect four
+
+ a very simple text editor
+
+
+ an audio vidualiser like cava but with more options and the option to get audio from microphone or record over a period of time with -flags in cammand line.
+
+use terminfo and termios (maybe ncurses if I really need it) to make a graphical style interface. then make it render 3d things.
