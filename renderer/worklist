@@ -1,0 +1,9 @@
+A lot of half baked features
+
+get the support_half_chars working properly.
+
+make better macros for the colors.
+
+implement z rendering
+
+lump all the terminal set up and put down together in one function
