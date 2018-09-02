@@ -170,9 +170,32 @@ int main(int argc, char *argv[]) {
 		inp = getchar();
 		if (inp == ' ')
 			break;
-		tri1.p1.x++;
-		tri1.p2.x++;
-		tri1.p3.x++;
+		if (inp == 'w')
+			tri1.p1.y--;
+		if (inp == 'a')
+			tri1.p1.x--;
+		if (inp == 's')
+			tri1.p1.y++;
+		if (inp == 'd')
+			tri1.p1.x++;
+		if (inp == 'i')
+			tri1.p2.y--;
+		if (inp == 'j')
+			tri1.p2.x--;
+		if (inp == 'k')
+			tri1.p2.y++;
+		if (inp == 'l')
+			tri1.p2.x++;
+		if (inp == 'g')
+			tri1.p3.y--;
+		if (inp == 'v')
+			tri1.p3.x--;
+		if (inp == 'b')
+			tri1.p3.y++;
+		if (inp == 'n')
+			tri1.p3.x++;
+
+
 
 		render_triangle(tri1);
 	}
